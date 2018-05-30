@@ -1,0 +1,31 @@
+Bank Kata
+
+Create a simple Bank account with the following features:
+
+	Deposit money into the account
+	Withdraw money from the account
+	Print a Statement showing all transactions to the console
+
+Acceptance Criteria:
+
+	Statement should display the transactions in this format
+
+	DATE       | AMOUNT | BALANCE
+	04/04/2018 |    500 |    1400
+	02/04/2018 |   -100 |     900
+	01/04/2018 |   1000 |    1000
+
+    after the customer has performed the following transactions
+
+    Deposit 1000 on 2018-04-01
+    Withdraw 100 on 2018-04-02
+    Deposit 500 on 2018-04-04
+
+You cannot alter the Account class structure
+
+public class Account
+{
+	public void Deposit(int amount) {}
+	public void Withdraw(int amount) {}
+	public void PrintStatement {}
+}	
